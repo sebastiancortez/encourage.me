@@ -1,6 +1,7 @@
 div.message-div {
     height: 100vh;
     position: relative;
+    background: #F2C7BC;
 }
 
 h1.main-message {
