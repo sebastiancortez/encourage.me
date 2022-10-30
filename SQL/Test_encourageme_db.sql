@@ -19,3 +19,10 @@ CREATE TABLE `messages` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 INSERT INTO `messages` VALUES (1,'Lets go bro');
 INSERT INTO `messages` VALUES (2,'You are doing amazing');
+
+SELECT * FROM encourage_me.user;
+SELECT * FROM encourage_me.messages;
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+flush privileges;
+
