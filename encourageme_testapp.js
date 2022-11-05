@@ -1,6 +1,7 @@
 const express = require("express");
 const mysql = require("mysql");
 const dotenv = require("dotenv");
+const router = express.Router();
 
 dotenv.config({ path: './.env'});
 
@@ -18,6 +19,7 @@ pool.query('SELECT * FROM encourage_me.messages', (err, res)=>{
         return console.log(err)
     }
     return console.log(res)
+    // res.json()
 })
 
 

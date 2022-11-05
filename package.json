@@ -8,10 +8,10 @@
   },
   "name": "encourage.me",
   "version": "1.0.0",
-  "main": "encourageme_database.js",
+  "main": "database.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon encourageme_testapp.js"
+    "start": "nodemon database.js"
   },
   "keywords": [],
   "author": "",
