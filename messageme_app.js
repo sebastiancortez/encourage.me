@@ -19,7 +19,7 @@ pool.query('SELECT * FROM encourage_me.messages', (err, res)=>{
         return console.log(err)
     }
     return console.log(res)
-    // res.json()
+    res.json()
 })
 
 

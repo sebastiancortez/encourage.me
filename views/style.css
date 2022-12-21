@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+div.message-div {
+    font-family: 'Zilla Slab', serif;
+    height: 100vh;
+    position: relative;
+    background: #F2C7BC;
+}
+
+h1.main-message {
+    margin: 0;
+    background: rgb(10, 165, 176);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 6em
+}
